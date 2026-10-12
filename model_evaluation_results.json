@@ -1,0 +1,81 @@
+{
+    "best_model": "Logistic Regression",
+    "cv_results": {
+        "Logistic Regression": {
+            "cv_f1_mean": 0.943981628335101,
+            "cv_f1_std": 0.021034948325122118,
+            "cv_acc_mean": 0.9534722222222222,
+            "cv_acc_std": 0.01778645621509123,
+            "cv_auc_mean": 0.9937844960469395,
+            "cv_auc_std": 0.00434816684037849
+        },
+        "Support Vector Machine": {
+            "cv_f1_mean": 0.9361310234966147,
+            "cv_f1_std": 0.021683151526512536,
+            "cv_acc_mean": 0.9465277777777779,
+            "cv_acc_std": 0.019344983718311285,
+            "cv_auc_mean": 0.9908010541494704,
+            "cv_auc_std": 0.005393900134965875
+        },
+        "Random Forest": {
+            "cv_f1_mean": 0.932632527912973,
+            "cv_f1_std": 0.018260781428404822,
+            "cv_acc_mean": 0.9444444444444444,
+            "cv_acc_std": 0.015372183070262935,
+            "cv_auc_mean": 0.9888866789319278,
+            "cv_auc_std": 0.004708054493386777
+        }
+    },
+    "test_metrics": {
+        "Logistic Regression": {
+            "Accuracy": 0.9416666666666667,
+            "Precision": 0.9383561643835616,
+            "Recall": 0.9194630872483222,
+            "F1_Score": 0.9288135593220339,
+            "ROC_AUC": 0.9932567829765577,
+            "TN": 202,
+            "FP": 9,
+            "FN": 12,
+            "TP": 137
+        },
+        "Support Vector Machine": {
+            "Accuracy": 0.9388888888888889,
+            "Precision": 0.9261744966442953,
+            "Recall": 0.9261744966442953,
+            "F1_Score": 0.9261744966442953,
+            "ROC_AUC": 0.9910938643086612,
+            "TN": 200,
+            "FP": 11,
+            "FN": 11,
+            "TP": 138
+        },
+        "Random Forest": {
+            "Accuracy": 0.9527777777777777,
+            "Precision": 0.952054794520548,
+            "Recall": 0.9328859060402684,
+            "F1_Score": 0.9423728813559322,
+            "ROC_AUC": 0.990521327014218,
+            "TN": 204,
+            "FP": 7,
+            "FN": 10,
+            "TP": 139
+        }
+    },
+    "num_features": [
+        "PM2.5",
+        "PM10",
+        "NO2",
+        "SO2",
+        "CO",
+        "O3",
+        "Temperature",
+        "Humidity"
+    ],
+    "cat_features": [
+        "Area_Type",
+        "Season"
+    ],
+    "dataset_rows": 1800,
+    "test_rows": 360,
+    "train_rows": 1440
+}
